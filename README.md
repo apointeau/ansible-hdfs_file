@@ -8,12 +8,12 @@ We write a small article in french to explain the CLI choice. [link][2]
 
 [1]: https://www.cyres.fr/
 
-[2]: https://www.cyres.fr/blog/hadoop-ansible-episode-1-hdfs/
+[2]: https://www.cyres.fr/big-data/hadoop-ansible-episode-2-hdfs/
 
 # Contributor
 
 - Antoine Pointeau : Creator
-- Hadrien Puissant : Testers
+- Hadrien Puissant : Tester
 
 # Instruction
 
