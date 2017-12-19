@@ -8,7 +8,12 @@ We write a small article in french to explain the CLI choice. [link][2]
 
 [1]: https://www.cyres.fr/
 
-[2]: https://www.cyres.fr/blog/hadoop-ansible-episode-1-hdfs/
+[2]: https://www.cyres.fr/big-data/hadoop-ansible-episode-2-hdfs/
+
+# Contributor
+
+- Antoine Pointeau
+- Hadrien Puissant
 
 # Instruction
 
@@ -28,7 +33,7 @@ ln -s /etc/ansible/module_utils /usr/lib/python2.7/site-packages/ansible/module_
 
 # Usage
 
-Example:
+Examples:
 ```
 - name: Create folder
   hdfs_file:
@@ -37,10 +42,12 @@ Example:
     owner: myuser
     group: mygroup
     mode: 0755
+
 - name: Delete the folder
   hdfs_file:
     path: /tmp/myfolder
     state: absent
+
 - name: Create file
   hdfs_file:
     path: /tmp/myfile
