@@ -12,8 +12,8 @@ We write a small article in french to explain the CLI choice. [link][2]
 
 # Contributor
 
-- Antoine Pointeau : Creator
-- Hadrien Puissant : Tester
+- Antoine Pointeau
+- Hadrien Puissant
 
 # Instruction
 
